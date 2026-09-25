@@ -1,0 +1,54 @@
+# Project dependencies
+.yarn
+.cache
+*.pyc
+node_modules
+yarn-error.log
+
+# Build directory
+/build
+/dist
+.DS_Store
+.sass-cache/
+_posts/
+_site/
+
+.mypy_cache
+
+/.vscode
+.idea
+
+config.yaml
+.venv/
+.pdm-python
+
+route.png
+route.svg
+
+.env
+
+# --- aweek: personal data & secrets, never push ---
+activities/
+GPX_OUT/
+TCX_OUT/
+FIT_OUT/
+PNG_OUT/
+Workouts/
+run_page/data.db
+src/static/activities.json
+assets/*.svg
+deploy/
+.secrets/
+
+# --- aweek: personal data & secrets, never push ---
+activities/
+GPX_OUT/
+TCX_OUT/
+FIT_OUT/
+PNG_OUT/
+Workouts/
+run_page/data.db
+src/static/activities.json
+assets/*.svg
+deploy/
+.secrets/
