@@ -52,3 +52,5 @@ src/static/activities.json
 assets/*.svg
 deploy/
 .secrets/
+
+imported.json
